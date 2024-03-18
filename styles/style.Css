@@ -1,0 +1,75 @@
+     body {
+      margin: 0;
+     }
+     /* ---------- HEADER ---------- */
+     header {
+        background-color: crimson;
+        color: white;
+        width: 100%;
+      }
+      .list{
+        display: inline-block;
+      }
+
+      .logo{
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+      }
+
+      .item {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        line-height: 30px;
+        display:inline-block;
+        margin: 0 40px;
+      }
+
+      #link {
+        text-decoration: underline;
+      }
+
+      .link {
+        color: white;
+        text-decoration: none !important;
+      }
+      /* ---------- HEADER END ----------*/
+
+
+      /* ---------- MAIN ---------- */
+
+      /* HEX , RBG -> RED 255 , GREEN 255 , BLUE 255  */
+        
+
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(9, 255, 9);
+  margin: 100px 40px 100px 200px;
+  border-radius: 20px;
+  border: 4px dashed orange;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  display: block;
+  float: left; 
+
+
+}
+
+.container{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* viewport width */
+/* viewport height */
+
+.wrapper{
+  width: 100%;
+  height: 50vh;
+  border: 1px solid #333;
+  margin-top: 30px;
+}
+      
